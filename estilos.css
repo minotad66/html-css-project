@@ -1,0 +1,192 @@
+.contenedor{
+	max-width: 80%;
+  padding: 20px;
+  width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+  text-align: center;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+header h3{
+  text-align: center;
+}
+
+header li{
+  float: inherit;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header#marca{
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav{
+	float: inline-end;
+	margin-top: 10px;
+}
+
+header .resaltado{
+	color: #1293d4;
+	font-weight: bold;
+}
+header a:hover{
+  color: #1293d4;
+	font-weight: bold;
+}
+
+body{
+	font: 16px Arial, Melvetica, sens-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #F3F3F3;
+}
+
+.side-post{
+  background: white;
+  margin: 0 auto 1.5em auto;
+  width: 15em;
+  padding: 20px;
+}
+
+.blog-content{
+  font-size: 1em;
+  border-left: 15px;
+  margin-bottom: 0;
+}
+
+.blog-tittle{
+  font-weight: 5000px;
+  font-size: 2.5em;
+  margin-top: 5px;
+}
+
+.blog-post{
+  background: white;
+  margin: 0 auto 2em auto;
+  padding: 20px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.section{
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.section:first-child{
+  color: #1293d4;
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+.col{
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child{
+  margin-left: 0;
+}
+
+footer{
+  width: 100%;
+  background: #141414;
+  color: #fff;
+  display: flex;
+  box-sizing: border-box;
+}
+
+footer div{
+  padding-left: 900px;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  margin: 2px;
+  padding-right: 1em;
+}
+footer li a {
+  background: linear-gradient(#fff, #eee);
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  display: block;
+  padding: 3px;
+}
+footer li a:hover {
+  border-color: rgb(88, 54, 209);
+}
+footer li span {
+  color: transparent;
+  display: block;
+  font: 0/0 a;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.facebook{
+  background: url("https://3.bp.blogspot.com/-MQuocq7OzfU/UiXwUY81yQI/AAAAAAAAB0Q/h6-R_R2-buI/s1600/face.png") 0 0 no-repeat;
+  
+}
+.twitter {
+  background: url("https://image.flaticon.com/icons/svg/179/179342.svg") 0 0 no-repeat;
+  
+}
+.instagram {
+  background: url("https://image.flaticon.com/icons/svg/174/174855.svg") 0 0 no-repeat;
+  border-radius: 50%;
+}
+
+.boton{
+  background: #848688;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  top: 10px;
+  line-height: 30px;
+  margin-left: 500px;
+  padding: 0 12px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.boton:hover {
+  background: #2571e4;
+}
+.boton:hover:before {
+  border-bottom: 15px solid #2571e4;
+  border-top: 15px solid #2571e4;
+}
+.boton:hover:after {
+  border-left: 15px solid #2571e4;
+}
