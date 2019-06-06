@@ -1,9 +1,9 @@
 .contenedor{
-	max-width: 80%;
-  padding: 20px;
-  width: 80%;
+  max-width: 100%;
+  height: auto;
 	margin: auto;
-	overflow: hidden;
+  overflow: hidden;
+  border-bottom: 3px solid rgba(226, 111, 18, 0.884);
 }
 
 ul{
@@ -12,7 +12,7 @@ ul{
 }
 
 header{
-	background-color: #24282b;
+	background-color: #31363a;
 	color: #fff;
 	padding-top: 30px;
 	min-height: 70px;
@@ -23,7 +23,7 @@ header a{
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 11px;
 }
 
 header h3{
@@ -31,16 +31,20 @@ header h3{
 }
 
 header li{
-  float: inherit;
+  float: inline-start;
 	display: inline;
 	padding: 0 20px 0 20px;
 }
 
-header#marca{
-	float: left;
+header 
+
+header #marca{
+  margin: 0;
+  vertical-align: middle;
 }
 
 header #marca h1{
+  font-family: 'Press Start 2P', cursive;
 	margin: 0;
 }
 
@@ -50,143 +54,196 @@ header nav{
 }
 
 header .resaltado{
-	color: #1293d4;
+	color: #d8881e;
 	font-weight: bold;
 }
 header a:hover{
-  color: #1293d4;
+  color: #d8881e;
 	font-weight: bold;
 }
 
 body{
-	font: 16px Arial, Melvetica, sens-serif;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
 	padding: 0;
 	margin: 0;
-	background-color: #F3F3F3;
-}
-
-.side-post{
-  background: white;
-  margin: 0 auto 1.5em auto;
-  width: 15em;
-  padding: 20px;
+	background-color: rgb(224, 222, 222);
 }
 
 .blog-content{
+  font-family: 'Lora', serif;
   font-size: 1em;
   border-left: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  padding: 0.5em;
 }
 
-.blog-tittle{
-  font-weight: 5000px;
-  font-size: 2.5em;
-  margin-top: 5px;
+h3, h5{
+  font-family: 'Volkhov', serif;
+  font-weight: 15px;
+  margin: 0.5em;
 }
 
-.blog-post{
-  background: white;
-  margin: 0 auto 2em auto;
-  padding: 20px;
+h5{color: rgb(128, 127, 127);}
+
+aside{
+  flex: 1 1 15%;
+  background: #fff;
+  margin: 0.5em;
+  font-weight: 15px;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-  border-radius: 3px;
-}
-
-.section{
-  clear: both;
-  padding: 0;
-  margin: 0;
-}
-
-.section:first-child{
-  color: #1293d4;
-  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-}
-
-.col{
-  display: block;
-  float: left;
-  margin: 1% 0 1% 1.6%;
-}
-
-.col:first-child{
-  margin-left: 0;
-}
-
-footer{
+aside img{
   width: 100%;
-  background: #141414;
-  color: #fff;
+}
+
+section{
   display: flex;
-  box-sizing: border-box;
+  background:rgb(224, 222, 222);;
 }
 
-footer div{
-  padding-left: 900px;
+section article:first-child{
+  background-color: #fff;
+  width: 80%;
+  height: auto;
+  margin: 10px;
 }
 
-footer li {
-  float: left;
-  list-style: none;
-  margin: 2px;
-  padding-right: 1em;
-}
-footer li a {
-  background: linear-gradient(#fff, #eee);
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  display: block;
-  padding: 3px;
-}
-footer li a:hover {
-  border-color: rgb(88, 54, 209);
-}
-footer li span {
-  color: transparent;
-  display: block;
-  font: 0/0 a;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-.facebook{
-  background: url("https://3.bp.blogspot.com/-MQuocq7OzfU/UiXwUY81yQI/AAAAAAAAB0Q/h6-R_R2-buI/s1600/face.png") 0 0 no-repeat;
-  
-}
-.twitter {
-  background: url("https://image.flaticon.com/icons/svg/179/179342.svg") 0 0 no-repeat;
-  
-}
-.instagram {
-  background: url("https://image.flaticon.com/icons/svg/174/174855.svg") 0 0 no-repeat;
-  border-radius: 50%;
+.articulo{
+  flex: 2 1 70%;
+  background:rgb(224, 222, 222);
+  display: flex;
+  flex-flow: row wrap;
+  text-align: justify;
 }
 
-.boton{
+article{
+  background-color: #fff;
+  width: 300px;
+  margin: 10px;
+  flex: 1 1 auto;
+}
+
+article img{
+  width: 100%;
+  height: 300px;
+}
+
+article a{
   background: #848688;
   color: #fff;
-  display: inline-block;
-  height: 30px;
-  top: 10px;
-  line-height: 30px;
-  margin-left: 500px;
-  padding: 0 12px;
-  position: relative;
+  padding: 10px 10px;
+  margin: 10px 0;
+  font-size: 13px;
   text-decoration: none;
-  border-radius: 10px;
+  float: left;
 }
 
 .boton:hover {
-  background: #2571e4;
+  background: #d8881e;
 }
+
 .boton:hover:before {
-  border-bottom: 15px solid #2571e4;
+  border-bottom: 15px solid #d8881e;
   border-top: 15px solid #2571e4;
 }
 .boton:hover:after {
   border-left: 15px solid #2571e4;
+}
+
+footer{
+  background: #31363a;
+  display: flex;
+  color: #fff;
+  border-top: 3px solid rgba(226, 111, 18, 0.884);
+  flex-flow: row nowrap;
+  height: auto;
+  align-items: center;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+  font-size: 10px;
+}
+
+footer li{
+  float: inherit;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.logo{
+  flex: 1 1 auto;
+  max-width: 150px;
+  max-height:150px;
+}
+
+.texto{
+  flex: 2 1 auto;
+  text-align: center;
+}
+
+.social{
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+.social img{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+@media all and (max-width: 1177px){
+  footer{
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ footer .logo{
+  flex: 1 1 auto;
+  justify-content: center;
+  max-width: 150px;
+  max-height:150px;
+}
+ .texto{
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.social{
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.social img{
+  max-width: 30px;
+  max-height: 30px;
+}
+  
+}
+
+@media all and (max-width: 800px){
+  section{
+    flex-direction: column;
+  }
+
+  nav{
+    flex-direction: column;
+    height: auto;
+  }
+
+  aside{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  aside img{
+    width: 50%;
+    height: 80%;
+  }
 }
